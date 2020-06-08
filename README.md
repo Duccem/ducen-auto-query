@@ -1,0 +1,1 @@
+"# ducen-auto-query" 
