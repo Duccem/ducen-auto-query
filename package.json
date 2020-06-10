@@ -1,0 +1,41 @@
+{
+	"name": "ducen-auto-query",
+	"version": "1.0.0",
+	"description": "MySQL Abstract interface",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"test": "jest --config jest.config.js",
+		"build": "tsc -p tsconfig.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Duccem/ducen-auto-query.git"
+	},
+	"keywords": [
+		"MySQL",
+		"ORM",
+		"API",
+		"Interface",
+		"Abstract"
+	],
+	"author": "duccem29",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Duccem/ducen-auto-query/issues"
+	},
+	"homepage": "https://github.com/Duccem/ducen-auto-query#readme",
+	"devDependencies": {
+		"@types/continuation-local-storage": "^3.2.2",
+		"@types/jest": "^25.2.3",
+		"@types/mysql2": "github:types/mysql2",
+		"jest": "^26.0.1",
+		"ts-jest": "^26.1.0",
+		"typescript": "^3.9.5"
+	},
+	"dependencies": {
+		"continuation-local-storage": "^3.2.1",
+		"ducenlogger": "^1.3.0",
+		"mysql2": "^2.1.0"
+	}
+}
